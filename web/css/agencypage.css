@@ -1,0 +1,99 @@
+.container {
+    display: flex;
+    background-color: #f0f0f0;
+    height: 750px;
+}
+
+.sidebar {
+    width: 400px;
+    padding: 60px;
+}
+
+.avatar {
+    width: 400px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.sidebar a:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    flex: 1;
+    padding: 200px;
+}
+
+.section {
+    display: none;
+}
+
+.section:target {
+    display: block;
+}
+.change-password-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.change-password-form input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.change-password-form button {
+    display: block;
+    width: 103%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.change-password-form button:hover {
+    background-color: #0056b3;
+}
+.section upload label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section upload input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.section upload button {
+    display: block;
+    width: 103%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+ .section upload button:hover {
+    background-color: #0056b3;
+}

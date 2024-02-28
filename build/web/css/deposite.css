@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.project-description {
+    background-color: #3333331f;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.project-description h2 {
+    color: #333;
+}
+
+.project-description p {
+    margin-bottom: 10px;
+}
+.deposite-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px;
+    margin-top: -90px;
+}
+
+.deposite {
+    display: flex;
+    background-color: #3333331f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.deposite-details {
+    flex: 1;
+}
+
+.deposite h3 {
+    margin-top: 0;
+}
+
+.button-datcoc {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 35px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none; 
+  margin-left: 550px;
+  
+}
+
+.button-datcoc:hover {
+  background-color: #45a049;
+}
+h2 {
+    text-align: center;
+}

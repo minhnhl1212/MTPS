@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+}
+
+.Search {
+    background-color: #3333331f;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background-color: #ffffffe6; 
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-family: arial;
+    text-align: center;
+}
+h2{
+    font-family: arial;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+p{
+    font-family: arial;
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.search input[type="text"], .search select {
+    margin-right: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 5px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+
+.apartment{
+    margin-top: 80px;
+}
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+.info p{
+    font-size: 30px;
+    margin: 0 60px;
+    font-size: 30px;
+    font-family: arial;
+}
+.investor {
+    width: 80%; /* Đặt chiều rộng của ô lớn */
+    margin: 80px auto; /* Để căn giữa ô lớn */
+    padding: 25px; /* Đặt phần padding cho ô lớn */
+    background-color: #f8f8f8; /* Màu nền cho ô lớn */
+    border: 1px solid #ccc; /* Viền cho ô lớn */
+    border-radius: 8px; /* Bo tròn các góc của ô lớn */
+}

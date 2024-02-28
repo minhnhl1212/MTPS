@@ -1,0 +1,87 @@
+body{
+    width: 100%;
+}
+
+.Search {
+    background-color: #3333331f;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-container {
+    background-color: #ffffffe6; 
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    font-family: arial;
+    text-align: center;
+}
+h2{
+    font-family: arial;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-top: 80px;
+    text-align: center;
+}
+p{
+    font-family: arial;
+}
+.search {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.search input[type="text"], .search select {
+    margin-right: 30px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 5px 40px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #0056b3;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.project {
+    position: relative;
+    width: calc(35.5% - 100px); /* Phân chia trên cơ sở 3 cột và đặt khoảng cách giữa các ô */
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    max-height: 200px; /* Điều chỉnh kích thước tối đa cho hình ảnh */
+    object-fit: cover; /* Đảm bảo hình ảnh không bị bóp méo */
+    border-radius: 5px 5px 0 0; /* Bo tròn góc ở phần trên của hình ảnh */
+}
+
+.project-title {
+    margin-top: 10px;
+}
+
+.project-info {
+    margin: 5px 0;
+}
